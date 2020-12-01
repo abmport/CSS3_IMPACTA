@@ -2,13 +2,65 @@
 /*
 Site para verificar compatibilidade de cada recurso do css e html.
 www.caniuse.com
+
+o ID sobrescreve uma CLASSE caso esteja associado.
+
+odd: Ímpar
+even: par
+
 */
 @import "estilo2.css";
+
+input[id=sim]:checked ~ label[for=sim]{
+    font-weight: bold;
+    background-color: white;
+}
+
+input[id=nao]:checked ~ label[for=nao]{
+
+    font-weight: bold;
+    background-color: white;
+}
+
+ul li:nth-child(even){
+    background-color: yellow;
+}
+
+ul li:nth-child(odd){
+    background-color: black;
+}
+
+nav ul li a:link{
+    color: #000000;
+}
+
+nav ul li a:visited{
+    color: #FFFFFF;
+}
+
+nav ul li a:hover{
+    color: blue;
+}
+
+body *{
+    letter-spacing: 1.2em;
+}
+
 
 body{
     background-color: #FF0000;
 }
 
-p {
-    text-transform: uppercase;
+.destaque{
+    font-weight: bold;
+    color: blue;
+}
+
+#p1{
+    font: 18px Georgia;
+}
+
+
+footer p{
+    background-color: blue;
 }
