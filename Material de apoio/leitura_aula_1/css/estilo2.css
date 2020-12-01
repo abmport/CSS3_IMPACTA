@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+@import url('estilo3.css');
+header{
+	font-family: arial;
+	font-size: 20px;
+	color:#E44D3A;
+	font-weight: bold;
+	}
+p{
+	color:#999;
+	font-family: arial;
+}

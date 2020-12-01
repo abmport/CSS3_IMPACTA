@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/*
+Site para verificar compatibilidade de cada recurso do css e html.
+www.caniuse.com
+*/
+@import "estilo2.css";
+
+body{
+    background-color: #FF0000;
+}
+
+p {
+    text-transform: uppercase;
+}
