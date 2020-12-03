@@ -3,4 +3,8 @@
 header {
     color: #333399;
     font: 35px Georgia;
+    background-color: black;
+    width: 100%;
+    height: auto;
+    padding: 1%;
 }

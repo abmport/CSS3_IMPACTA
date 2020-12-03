@@ -43,7 +43,7 @@ nav ul li a:hover{
 }
 
 body *{
-    letter-spacing: 1.2em;
+    letter-spacing: 0.1em;
 }
 
 
@@ -57,7 +57,52 @@ body{
 }
 
 #p1{
-    font: 18px Georgia;
+    font-family: Georgia;
+}
+
+article{
+    background-color: #FFF;
+}
+
+#grupo1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-wrap: nowrap; não quebra a linha */
+    /* flex-start | flex-end | center | space-between | space-around */
+    border: 1px solid #000000;
+    /* justify-content: space-around; */
+    /* align-content: space-around; */
+    align-items: baseline;
+    height: 450px;
+}
+
+#grupo1 div{
+    width: 200px;
+    height: 120px;
+    background: rgb(114, 114, 114);
+    margin: 8px;
+}
+
+div#grupo1 div:nth-child(1){
+    height: 80px;
+}
+
+div#grupo1 div:nth-child(2){
+    height: 180px;
+}
+
+div#grupo1 div:nth-child(3){
+    height: 280px;
+}
+
+div#grupo1 div:nth-child(4){
+    height: 130px;
+}
+
+
+article img{
+    width: 350px;
 }
 
 
