@@ -46,9 +46,9 @@ body *{
     letter-spacing: 0.1em;
 }
 
-
 body{
-    background-color: #FF0000;
+    background-color:rgba(255,0,0,1)
+
 }
 
 .destaque{
@@ -75,17 +75,21 @@ article{
     /* align-content: space-around; */
     align-items: baseline;
     height: 450px;
+    background-image: -webkit-radial-gradient(top,red,green,blue,black);
+    /*background-image: -webkit-linear-gradient(top,red,green,blue,black);*/
 }
 
 #grupo1 div{
     width: 200px;
     height: 120px;
-    background: rgb(114, 114, 114);
+    background: rgba(114, 114, 114,0.9);
     margin: 8px;
+
 }
 
 div#grupo1 div:nth-child(1){
     height: 80px;
+
 }
 
 div#grupo1 div:nth-child(2){

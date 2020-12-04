@@ -19,6 +19,8 @@ header{
 	width:250px;
 	height:85px;
 	margin: 15px;
+	background-image: url(../imagens/css3-logo.png);
+    background-repeat: no-repeat;
 }
 #button-menu-nav{
 	width:40px;
