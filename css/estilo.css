@@ -27,7 +27,7 @@ ul li:nth-child(even){
 }
 
 ul li:nth-child(odd){
-    background-color: black;
+    background-color: white;
 }
 
 nav ul li a:link{
@@ -84,24 +84,33 @@ article{
     height: 120px;
     background: rgba(114, 114, 114,0.9);
     margin: 8px;
+    text-shadow: 2px 2px 1px red;
 
 }
 
 div#grupo1 div:nth-child(1){
     height: 80px;
-
+    box-shadow: 2px 2px 1px white; /* x y blur cor*/
 }
 
 div#grupo1 div:nth-child(2){
     height: 180px;
+    border: 3px double #000;
+    border-radius: 10px; /* borda arrendonda */
 }
 
 div#grupo1 div:nth-child(3){
     height: 280px;
+    border: 3px dashed #000; /* dashed é tracejado */
+    border-left-color: #FFF;
+    border-left-style: dotted;
+    border-radius: 50px;
 }
 
 div#grupo1 div:nth-child(4){
     height: 130px;
+    border: 3px dotted #000; /* dotted é pontilhado */
+    border-right-color: #FFF;
 }
 
 

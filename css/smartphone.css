@@ -31,6 +31,9 @@ header{
     margin: 15px;
     background-image: url(../imagens/css3-logo.png);
     background-repeat: no-repeat;
+    border: dashed 3px #000;
+	position: relative;
+	float: left;
 }
 
 #button-menu-nav{
@@ -42,6 +45,12 @@ header{
 
 #menu-nav ul, input[type='search']{
     display: none;
+}
+
+input[type='search']{
+    background-color: #eee;
+	border: None;
+	border-radius: 15px;
 }
 
 #button-lupa{
@@ -60,6 +69,8 @@ header{
 
 .descricao{
     height: 150px;
+    background-color: #e0e0e0;
+    box-shadow: 10px 10px 10px #888;
 }
 
 .descricao,
@@ -91,4 +102,14 @@ footer{
 footer li{
     padding: 20px;
     display: inline;
+}
+
+
+#secoes{
+	border: solid 1px #e0e0e0;
+	border-radius: 10px;
+}
+
+#para-voce{
+	border-radius: 10px;
 }
