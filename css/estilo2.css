@@ -1,5 +1,21 @@
 @charset "UTF-8";
 
+@viewport{
+    width: device-width;
+    zoom: 1;
+}
+
+@media only screen and (max-widht: 420px){
+header{
+    width: 100%;
+}
+
+section{
+    width: 100%;
+}
+
+}
+
 header {
     color: #333399;
     font: 35px Georgia;

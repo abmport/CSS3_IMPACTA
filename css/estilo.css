@@ -10,6 +10,9 @@ even: par
 
 */
 @import "estilo2.css";
+@import url("smartphone.css") (max-width: 480px);
+@import url("tablet.css") (max-width: 481px);
+@import url("desktop.css") (max-width: 1024px);
 
 input[id=sim]:checked ~ label[for=sim]{
     font-weight: bold;
