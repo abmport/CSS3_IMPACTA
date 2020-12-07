@@ -38,7 +38,26 @@ transform:scale(0.5);
 border:10px dashed blue;
 border-radius:50%;
 }
+@-webkit-keyframes anima-01{
+from{
+left:0;
+transform:rotate(0deg);
+opacity:0;
+}
+to{
+left:370px;
+transform:rotate(360deg);
+opacity:1;
+	}
+}
+
 div#equilibrio{
+/*-webkit-animation-name:anima-01;
+-webkit-animation-time-function:ease-in | ease-out | linear
+-webkit-animation-duration:2s
+-webkit-animation-count:número ou infinite
+-webkit-animation-direction:reverse | alternate*/
+-webkit-animation:anima-01 2s ease-in infinite alternate;
 width:96px;
 height:48px;
 background-color:orange;
@@ -71,25 +90,6 @@ border-radius:100%;
 top:50%;
 left:50%;
 }
-
-@-webkit-keyframes anima-01{
-from{
-	left: 0;
-	transform: rotate(0deg);
-}
-to{
-	left: 370px;
-	transform: rotate(360deg);
-}
-
-}
-
-
-div#equilibrio{
-	-webkit-animation: anima-01 5s infinite;
-	width: 96px;	
-}
-}
 </style>
 </head>
 <body>
@@ -99,8 +99,8 @@ div#equilibrio{
 	<section>
 		<article>
 		<header>
-			<h1>Desenhando com CSS3</h1>
-			<h2>Formas Complexas</h2>
+			<h1>Animando com CSS3</h1>
+			<h2>@Keyframes</h2>
 		</header>
 		<div id="equilibrio"></div>
 		</article>
